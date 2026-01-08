@@ -7,4 +7,5 @@
 . "$PSScriptRoot\env.ps1"
 
 # 加载功能模块
+. "$PSScriptRoot\functions\git.ps1"
 . "$PSScriptRoot\functions\ll.ps1"

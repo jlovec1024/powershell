@@ -20,3 +20,7 @@ desktop.ini
 *.tmp
 *.log
 *.cache
+
+# Snow AI CLI
+.snow/
+$null
