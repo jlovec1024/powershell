@@ -1,0 +1,22 @@
+# 敏感配置文件
+*secret*.ps1
+*private*.ps1
+env.local.ps1
+aliases.local.ps1
+
+# IDE 和编辑器
+.vscode/
+.idea/
+*.code-workspace
+*.suo
+*.user
+
+# 操作系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时文件
+*.tmp
+*.log
+*.cache
