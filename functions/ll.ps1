@@ -1,5 +1,5 @@
 function ll {
-  $items = Get-ChildItem -Force
+  $items = Get-ChildItem -Force @args
 
   $items |
     Sort-Object @{Expression = { -not $_.PSIsContainer }; Ascending = $true }, @{Expression = { $_.Name }; Ascending = $true } |
